@@ -1,0 +1,7 @@
+#! /bin/bash
+#Compositor
+picom &
+#Slstatus
+#slstatus &
+#Wallpaper
+feh --bg-scale ~/Pictures/4.png &
