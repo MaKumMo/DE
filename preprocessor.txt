@@ -1,0 +1,19 @@
+Some important preprocessor directives are :
+#include --> Used for including files in a code. Include statement is replaced by code in the file that is included.
+
+Macro Defines --> #define is used. It replaces or substitues the text throughout our code.
+
+Conditional compilation --> The conditional compilation preprocessor directives allow you to specify under what conditions something will or won’t compile
+
+Some common types of condtional compilations are :
+#ifdef, #ifndef, and #endif
+
+if def compiles the code if we have something defined already.
+ifndef does the exact opposite.If something is defined than it will not compile.
+
+Another conditional  compilation is #if 0.This will just not compile code in the defined area. #endif is used to determine the range.
+On the other hand changing #if 0 --> #if 1 will instead compile the code.
+
+Important note: Object-like macros don’t affect other preprocessor directives
+
+Preprocesssor Directives have global scope and they wont affect multiple files.

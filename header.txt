@@ -1,0 +1,16 @@
+#including header files from different directory while using terminal GCC:
+
+Using g++, you can use the -I option to specify an alternate include directory:
+g++ -o main -I/source/includes main.cpp
+
+There is no space after the -I.
+
+#A nice tip
+To maximize the chance that missing includes will be flagged by compiler, order your #includes as follows:
+
+    The paired header file
+    Other headers from your project
+    3rd party library headers
+    Standard library headers
+
+The headers for each grouping should be sorted alphabetically (unless the documentation for a 3rd party library instructs you to do otherwise).
